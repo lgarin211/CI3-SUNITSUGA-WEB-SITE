@@ -49,16 +49,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/template-overviews/grayscale/">the preview page</a>
-                            . The theme is open source, and you can use it for any purpose, personal or commercial.
-                        </p>
+                        <h2 class="text-white mb-4">Hallo Semua</h2>
+                        <p class="text-white-50">Kenalkan namaku
+                         <strong> Agustinus Pardamean Lumban Tobing</strong>
+                         ,saat ini aku sedang bejajar agar aku bisa menjadi seorang <strong>PROGRAMER</strong>Nan Handal.</p>
                     </div>
                 </div>
-                <img class="img-fluid rounded-pill" src="https://thumbs.gfycat.com/DamagedImportantAmurratsnake-size_restricted.gif" alt="" />
+                <img class="img-fluid rounded-pill" height="20%" src="https://thumbs.gfycat.com/DamagedImportantAmurratsnake-size_restricted.gif" alt="">
             </div>
+            <br>
         </section>
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
@@ -71,11 +70,12 @@
                     </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>let me introduce myself</h4>
+                            <p class="text-black-50 mb-0">Mari Mengenal Diriku Lebih Lagi Melalui Kanal Youtubeku dan selamt menikmati</p>
                         </div>
                     </div>
                 </div>
+                <h3 class="text-center">ini beberapa even yang aku ikuti untuk memulai karir</h3>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('pac/one/')?>assets/img/demo-image-01.jpg" alt="" /></div>
@@ -83,9 +83,10 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
+                                    <h4 class="text-white">Lomba Web Desain</h4>
                                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
+                                    20 agustinus 2020
                                 </div>
                             </div>
                         </div>
@@ -98,15 +99,16 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
+                                    <h4 class="text-white">Lomba Web Desain</h4>
                                     <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
+                                    20 desember 1993
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                                <!-- Project One Row-->
+<!-- 
                                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('pac/one/')?>assets/img/demo-image-01.jpg" alt="" /></div>
                     <div class="col-lg-6">
@@ -122,7 +124,6 @@
                     </div>
                 </div>
 
-                                <!-- Project Two Row-->
                                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('pac/one/')?>assets/img/demo-image-02.jpg" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
@@ -135,22 +136,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                                <!-- Project Two Row-->
-                                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('pac/one/')?>assets/img/demo-image-02.jpg" alt="" /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
