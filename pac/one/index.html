@@ -26,9 +26,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" id="dt1" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" id="dt2" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" id="dt3" href="#signup">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+                    <button class="btn btn-primary js-scroll-trigger" id="startnow" href="#about">mulai kunjungan</button>
                 </div>
             </div>
         </header>
@@ -87,6 +87,20 @@
                         </div>
                     </div>
                 </div>
+                
+                <video id="myVideo" width="320" height="240" controls>
+                    <source src="assets/video/Haikyuu!! Season 4 Op - PHOENIXCover by Raon Lee.mp4" type="video/mp4">
+                    <!-- <source src="/assets/video/Sword Art Online 刀劍神域 - Alicization Opening 2 Full『ASCA - RESISTER』 完整版 MV Music Video [ Sub 歌詞字幕 ].mp4" type="video/ogg"> -->
+                    Your browser does not support the video tag.
+                  </video>
+                  
+                  <p>Click the button to get the exact length (duration) of the video, in seconds.</p>
+                  
+                  <button onclick="myFunction()">Try it</button>
+                  
+                  <p id="demo"></p>
+
+                <!-- <video src="assets/video/Sword Art Online Ordinal Scale - Catch The MomentCover by Raon Lee.mp4" id="myVideo" ></video> -->
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
@@ -164,11 +178,25 @@
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Your Website 2020</div></footer>
         <!-- Bootstrap core JS-->
+        <!-- Time Event JS -->
+        <!-- <script >
+            var tombol=document.getElementById('startnow');
+            tombol.addEventListener("click",()=>{
+                run;
+                alert('kena');
+              console.log('run');  
+            })
+var run=function run() {
+                alert('bisa');
+            }
+        </script> -->
+        <script src="js/runtheword.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
+         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
     </body>
 </html>

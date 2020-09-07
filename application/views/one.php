@@ -176,7 +176,7 @@
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4" />
                                 <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
+                            </div>                        
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">

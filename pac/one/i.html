@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <video width="320" height="240" controls>
+        <source src="Sword Art Online Ordinal Scale - Catch The MomentCover by Raon Lee.mp4" type="video/mp4">
+        <!-- <source src="movie.ogg" type="video/ogg"> -->
+      Your browser does not support the video tag.
+      </video>
+
+<video id="myVideo" width="320" height="240" controls>
+  <source src="assets/video/Sword Art Online 刀劍神域 - Alicization Opening 2 Full『ASCA - RESISTER』 完整版 MV Music Video [ Sub 歌詞字幕 ].mp4" type="video/mp4">
+  <!-- <source src="/assets/video/Sword Art Online 刀劍神域 - Alicization Opening 2 Full『ASCA - RESISTER』 完整版 MV Music Video [ Sub 歌詞字幕 ].mp4" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+<p>Click the button to get the exact length (duration) of the video, in seconds.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myVideo").duration;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
